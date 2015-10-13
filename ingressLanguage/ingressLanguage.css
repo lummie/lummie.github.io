@@ -328,7 +328,7 @@ a.glyph {
 	background-image:url(glyphs/Impure.png);
 }
 
-.58-Intelligence {
+.Intelligence {
 	background-image:url(glyphs/58 Intelligence.png);
 }
 
@@ -524,7 +524,7 @@ a.glyph {
 	background-image:url(glyphs/Shaper-Collective.png);
 }
 
-.Shaper+Human {
+.Shaper-Human {
 	background-image:url(glyphs/Shaper+Human.png);
 }
 
@@ -548,7 +548,7 @@ a.glyph {
 	background-image:url(glyphs/Strong.png);
 }
 
-.48-Technology {
+.Technology {
 	background-image:url(glyphs/48 Technology.png);
 }
 
