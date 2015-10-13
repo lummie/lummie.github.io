@@ -117,7 +117,7 @@ var ingLang = {
 		{ name:'Self', class:'Self'},
 		{ name:'Separate', class:'Separate'},
 		{ name:'Shaper-Collective', class:'Shaper-Collective'},
-		{ name:'Shaper-Human', class:'Shaper+Human'},
+		{ name:'Shaper+Human', class:'Shaper-Human'},
 		{ name:'Share', class:'Share'},
 		{ name:'Simple', class:'Simple'},
 		{ name:'Soul-Spirit-Life-Force', class:'Soul-Spirit-Life-Force'},
