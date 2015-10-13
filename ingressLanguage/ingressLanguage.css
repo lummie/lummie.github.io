@@ -1,0 +1,602 @@
+body {
+    background-color: #333;
+    color:#DDD;
+}
+
+a {
+	color: white;
+}
+
+footer {
+
+    display: block;
+    bottom:0px;
+    padding: 4px;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 0.8em;
+}
+
+.glyph {
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	display:block;
+	border: 8px solid #666;
+	margin-bottom: 4px;
+}
+
+a.glyph {
+	cursor: pointer;
+}
+
+
+.glyphName {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #4382E1;
+}
+
+
+
+
+
+
+
+
+
+
+.success {
+	background-color: #00FF00;
+	border: 8px solid #00FF00;
+}
+
+.fail {
+	background-color: #FF0000;
+	border: 8px solid #FF0000;
+}
+
+.Abandon {
+	background-image:url(glyphs/Abandon.png);
+}
+
+.Adapt {
+	background-image:url(glyphs/Adapt.png);
+}
+
+.Advance {
+	background-image:url(glyphs/Advance.png);
+}
+
+.After {
+	background-image:url(glyphs/After.png);
+}
+
+.Again-Repeat {
+	background-image:url(glyphs/Again-Repeat.png);
+}
+
+.All {
+	background-image:url(glyphs/All.png);
+}
+
+.Answer {
+	background-image:url(glyphs/Answer.png);
+}
+
+.Attack-War {
+	background-image:url(glyphs/Attack-War.png);
+}
+
+.Avoid-Struggle {
+	background-image:url(glyphs/Avoid-Struggle.png);
+}
+
+.Barrier-Obstacle {
+	background-image:url(glyphs/Barrier-Obstacle.png);
+}
+
+.Before {
+	background-image:url(glyphs/Before.png);
+}
+
+.Begin {
+	background-image:url(glyphs/Begin.png);
+}
+
+.Being-Human {
+	background-image:url(glyphs/Being-Human.png);
+}
+
+.Body-Shell {
+	background-image:url(glyphs/Body-Shell.png);
+}
+
+.Breathe {
+	background-image:url(glyphs/Breathe.png);
+}
+
+.Calibration-Grid {
+	background-image:url(glyphs/Calibration-Grid.png);
+}
+
+.Capture {
+	background-image:url(glyphs/Capture.png);
+}
+
+.Change-Modify {
+	background-image:url(glyphs/Change-Modify.png);
+}
+
+.Chaos-Disorder {
+	background-image:url(glyphs/Chaos-Disorder.png);
+}
+
+.Clear-All {
+	background-image:url(glyphs/Clear-All.png);
+}
+
+.Clear {
+	background-image:url(glyphs/Clear.png);
+}
+
+.Complex {
+	background-image:url(glyphs/Complex.png);
+}
+
+.Conflict {
+	background-image:url(glyphs/Conflict.png);
+}
+
+.Consequence {
+	background-image:url(glyphs/Consequence.png);
+}
+
+.Contemplate {
+	background-image:url(glyphs/Contemplate.png);
+}
+
+.Contract {
+	background-image:url(glyphs/Contract.png);
+}
+
+.Courage {
+	background-image:url(glyphs/Courage.png);
+}
+
+.Create-Creation {
+	background-image:url(glyphs/Create-Creation.png);
+}
+
+.Creativity-Mind-Thought-Idea {
+	background-image:url(glyphs/Creativity-Mind-Thought-Idea.png);
+}
+
+.Creativity {
+	background-image:url(glyphs/Creativity.png);
+}
+
+.Danger {
+	background-image:url(glyphs/Danger.png);
+}
+
+.Data-Signal-Message {
+	background-image:url(glyphs/Data-Signal-Message.png);
+}
+
+.Defend {
+	background-image:url(glyphs/Defend.png);
+}
+
+.Destination {
+	background-image:url(glyphs/Destination.png);
+}
+
+.Destiny {
+	background-image:url(glyphs/Destiny.png);
+}
+
+.Destroy-Destruction {
+	background-image:url(glyphs/Destroy-Destruction.png);
+}
+
+.Deteriorate-Erode {
+	background-image:url(glyphs/Deteriorate-Erode.png);
+}
+
+.Die {
+	background-image:url(glyphs/Die.png);
+}
+
+.Difficult {
+	background-image:url(glyphs/Difficult.png);
+}
+
+.Discover {
+	background-image:url(glyphs/Discover.png);
+}
+
+.Distance {
+	background-image:url(glyphs/Distance.png);
+}
+
+.Easy {
+	background-image:url(glyphs/Easy.png);
+}
+
+.End-Close {
+	background-image:url(glyphs/End-Close.png);
+}
+
+.Enlightened-B {
+	background-image:url(glyphs/Enlightened-B.png);
+}
+
+.Enlightened {
+	background-image:url(glyphs/Enlightened.png);
+}
+
+.Equal {
+	background-image:url(glyphs/Equal.png);
+}
+
+.Escape {
+	background-image:url(glyphs/Escape.png);
+}
+
+.Evolution {
+	background-image:url(glyphs/Evolution.png);
+}
+
+.Failure {
+	background-image:url(glyphs/Failure.png);
+}
+
+.Fear {
+	background-image:url(glyphs/Fear.png);
+}
+
+.Follow {
+	background-image:url(glyphs/Follow.png);
+}
+
+.Forget {
+	background-image:url(glyphs/Forget.png);
+}
+
+.Future-Forward-Time {
+	background-image:url(glyphs/Future-Forward-Time.png);
+}
+
+.Gain {
+	background-image:url(glyphs/Gain.png);
+}
+
+.Government-City-Civilization-Structure {
+	background-image:url(glyphs/Government-City-Civilization-Structure.png);
+}
+
+.Grow {
+	background-image:url(glyphs/Grow.png);
+}
+
+.Harmony-Peace {
+	background-image:url(glyphs/Harmony-Peace.png);
+}
+
+.Harm {
+	background-image:url(glyphs/Harm.png);
+}
+
+.Have {
+	background-image:url(glyphs/Have.png);
+}
+
+.Help {
+	background-image:url(glyphs/Help.png);
+}
+
+.Hide {
+	background-image:url(glyphs/Hide.png);
+}
+
+.Ignore {
+	background-image:url(glyphs/Ignore.png);
+}
+
+.I-Me-Self {
+	background-image:url(glyphs/I-Me-Self.png);
+}
+
+.Imperfect {
+	background-image:url(glyphs/Imperfect.png);
+}
+
+.Improve {
+	background-image:url(glyphs/Improve.png);
+}
+
+.Impure {
+	background-image:url(glyphs/Impure.png);
+}
+
+.58 Intelligence {
+	background-image:url(glyphs/58 Intelligence.png);
+}
+
+.Interrupt {
+	background-image:url(glyphs/Interrupt.png);
+}
+
+.Journey {
+	background-image:url(glyphs/Journey.png);
+}
+
+.Knowledge {
+	background-image:url(glyphs/Knowledge.png);
+}
+
+.Lead {
+	background-image:url(glyphs/Lead.png);
+}
+
+.Legacy {
+	background-image:url(glyphs/Legacy.png);
+}
+
+.Less {
+	background-image:url(glyphs/Less.png);
+}
+
+.Liberate {
+	background-image:url(glyphs/Liberate.png);
+}
+
+.Lie {
+	background-image:url(glyphs/Lie.png);
+}
+
+.Live-Again-Reincarnate {
+	background-image:url(glyphs/Live-Again-Reincarnate.png);
+}
+
+.Lose {
+	background-image:url(glyphs/Lose.png);
+}
+
+.Message {
+	background-image:url(glyphs/Message.png);
+}
+
+.Mind-Idea-Thought {
+	background-image:url(glyphs/Mind-Idea-Thought.png);
+}
+
+.More {
+	background-image:url(glyphs/More.png);
+}
+
+.Mystery {
+	background-image:url(glyphs/Mystery.png);
+}
+
+.Nature {
+	background-image:url(glyphs/Nature.png);
+}
+
+.New {
+	background-image:url(glyphs/New.png);
+}
+
+.No-Not-Absent {
+	background-image:url(glyphs/No-Not-Absent.png);
+}
+
+.Nourish {
+	background-image:url(glyphs/Nourish.png);
+}
+
+.Nzeer {
+	background-image:url(glyphs/Nzeer.png);
+}
+
+.Old {
+	background-image:url(glyphs/Old.png);
+}
+
+.Open-All {
+	background-image:url(glyphs/Open-All.png);
+}
+
+.Opening-Doorway-Portal {
+	background-image:url(glyphs/Opening-Doorway-Portal.png);
+}
+
+.Open {
+	background-image:url(glyphs/Open.png);
+}
+
+.Past {
+	background-image:url(glyphs/Past.png);
+}
+
+.Path {
+	background-image:url(glyphs/Path.png);
+}
+
+.Perfection {
+	background-image:url(glyphs/Perfection.png);
+}
+
+.Perspective {
+	background-image:url(glyphs/Perspective.png);
+}
+
+.Potential {
+	background-image:url(glyphs/Potential.png);
+}
+
+.Presence {
+	background-image:url(glyphs/Presence.png);
+}
+
+.Present-Now {
+	background-image:url(glyphs/Present-Now.png);
+}
+
+.Pure-Purity {
+	background-image:url(glyphs/Pure-Purity.png);
+}
+
+.Pursue-Chase {
+	background-image:url(glyphs/Pursue-Chase.png);
+}
+
+.Pursue {
+	background-image:url(glyphs/Pursue.png);
+}
+
+.Question {
+	background-image:url(glyphs/Question.png);
+}
+
+.React {
+	background-image:url(glyphs/React.png);
+}
+
+.Rebel {
+	background-image:url(glyphs/Rebel.png);
+}
+
+.Recharge {
+	background-image:url(glyphs/Recharge.png);
+}
+
+.Resistance-B {
+	background-image:url(glyphs/Resistance-B.png);
+}
+
+.Resist-Resistance {
+	background-image:url(glyphs/Resist-Resistance.png);
+}
+
+.Restraint {
+	background-image:url(glyphs/Restraint.png);
+}
+
+.Retreat {
+	background-image:url(glyphs/Retreat.png);
+}
+
+.Safety {
+	background-image:url(glyphs/Safety.png);
+}
+
+.Save-Rescue {
+	background-image:url(glyphs/Save-Rescue.png);
+}
+
+.Seek-Search {
+	background-image:url(glyphs/Seek-Search.png);
+}
+
+.See {
+	background-image:url(glyphs/See.png);
+}
+
+.Self {
+	background-image:url(glyphs/Self.png);
+}
+
+.Separate {
+	background-image:url(glyphs/Separate.png);
+}
+
+.Shaper-Collective {
+	background-image:url(glyphs/Shaper-Collective.png);
+}
+
+.Shaper+Human {
+	background-image:url(glyphs/Shaper+Human.png);
+}
+
+.Share {
+	background-image:url(glyphs/Share.png);
+}
+
+.Simple {
+	background-image:url(glyphs/Simple.png);
+}
+
+.Soul-Spirit-Life-Force {
+	background-image:url(glyphs/Soul-Spirit-Life-Force.png);
+}
+
+.Stability {
+	background-image:url(glyphs/Stability.png);
+}
+
+.Strong {
+	background-image:url(glyphs/Strong.png);
+}
+
+.48 Technology {
+	background-image:url(glyphs/48 Technology.png);
+}
+
+.Together {
+	background-image:url(glyphs/Together.png);
+}
+
+.Truth {
+	background-image:url(glyphs/Truth.png);
+}
+
+.Unbounded {
+	background-image:url(glyphs/Unbounded.png);
+}
+
+.Unknown01 {
+	background-image:url(glyphs/Unknown01.png);
+}
+
+.Unknown05 {
+	background-image:url(glyphs/Unknown05.png);
+}
+
+.Unknown06 {
+	background-image:url(glyphs/Unknown06.png);
+}
+
+.Use {
+	background-image:url(glyphs/Use.png);
+}
+
+.Victory {
+	background-image:url(glyphs/Victory.png);
+}
+
+.Want {
+	background-image:url(glyphs/Want.png);
+}
+
+.Weak {
+	background-image:url(glyphs/Weak.png);
+}
+
+.We-Us {
+	background-image:url(glyphs/We-Us.png);
+}
+
+.Worth {
+	background-image:url(glyphs/Worth.png);
+}
+
+.XM {
+	background-image:url(glyphs/XM.png);
+}
+
+.You-Other {
+	background-image:url(glyphs/You-Other.png);
+}
+
