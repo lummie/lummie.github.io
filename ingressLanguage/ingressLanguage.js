@@ -68,7 +68,7 @@ var ingLang = {
 		{ name:'Imperfect', class:'Imperfect'},
 		{ name:'Improve', class:'Improve'},
 		{ name:'Impure', class:'Impure'},
-		{ name:'58 Intelligence', class:'58 Intelligence'},
+		{ name:'Intelligence', class:'58 Intelligence'},
 		{ name:'Interrupt', class:'Interrupt'},
 		{ name:'Journey', class:'Journey'},
 		{ name:'Knowledge', class:'Knowledge'},
@@ -123,13 +123,13 @@ var ingLang = {
 		{ name:'Soul-Spirit-Life-Force', class:'Soul-Spirit-Life-Force'},
 		{ name:'Stability', class:'Stability'},
 		{ name:'Strong', class:'Strong'},
-		{ name:'48 Technology', class:'48 Technology'},
+		{ name:'Technology', class:'48 Technology'},
 		{ name:'Together', class:'Together'},
 		{ name:'Truth', class:'Truth'},
 		{ name:'Unbounded', class:'Unbounded'},
-		{ name:'Unknown01', class:'Unknown01'},
-		{ name:'Unknown05', class:'Unknown05'},
-		{ name:'Unknown06', class:'Unknown06'},
+		{ name:'Unknown (rocket)', class:'Unknown01'},
+		{ name:'Unknown (rubic)', class:'Unknown05'},
+		{ name:'Unknown (star)', class:'Unknown06'},
 		{ name:'Use', class:'Use'},
 		{ name:'Victory', class:'Victory'},
 		{ name:'Want', class:'Want'},
@@ -194,7 +194,7 @@ function qTypeImage(){
 
 	for (var i=0; i<4; i++) {
 		var id = (options[i].name == item.name) ? 'correct' : 'wrong-' + i;
-		ingLang.el.append('<a href="#" class="glyph ' + options[i].class + '" id="' + id + '"></a>');
+		ingLang.el.append('<a href="#" class="glyph ' + options[i].class + '" id="' + id + '" data-name="' + options[i].name + '" ></a>');
 		$('#wrong-' + i).on('click',wrongAnswer);
 	}
 	$('#correct').on('click',rightAnswer);
@@ -204,6 +204,7 @@ function qTypeImage(){
 function wrongAnswer(){
 	ingLang.score.Correct -=1;
 	$(this).addClass('fail');
+	$(this).before("<p>" + $(this).attr('data-name') + "</p>");
 }
 
 function rightAnswer(el){
