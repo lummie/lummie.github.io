@@ -1,3 +1,4 @@
+#  Corsair Void RGB Wireless Gaming Headset and Ubuntu
 I recently hit an issue after a brand new install of Ubuntu 16.10 where I'd be using unity and suddenly at random intervals the left mouse button would stop working and windows would not focus. A ctrl-alt-f1 then ctrl-alt-f7 would get things working again, but this was far from ideal.
 It turns out there is some issue with my new [Corsair Void RGB Wireless Gaming Headset](http://www.corsair.com/en-gb/void-wireless-dolby-7-1-gaming-headset)
 
