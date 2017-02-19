@@ -1,8 +1,9 @@
 #  Corsair Void RGB Wireless Gaming Headset and Ubuntu
-I recently hit an issue after a brand new install of Ubuntu 16.10 where I'd be using unity and suddenly at random intervals the left mouse button would stop working and windows would not focus. A ctrl-alt-f1 then ctrl-alt-f7 would get things working again, but this was far from ideal.
+I recently hit an issue after a brand new install of Ubuntu 16.10 where I'd be using unity and suddenly at random intervals the left mouse
+button would stop working and windows would not focus. A ctrl-alt-f1 then ctrl-alt-f7 would get things working again, but this was far from ideal.
 It turns out there is some issue with my new [Corsair Void RGB Wireless Gaming Headset](http://www.corsair.com/en-gb/void-wireless-dolby-7-1-gaming-headset)
 
-After a bit of searching I spotted a similar issue but with differnet hardware so this is how it was fixed for the above, specifically model **RDA0003**
+After a bit of searching I spotted a similar issue but with different hardware so this is how it was fixed for the above, specifically model **RDA0003**
 
 create / edit `/etc/modprobe.d/usbhid.conf` and add/modify this line
 
