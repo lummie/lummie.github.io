@@ -1,4 +1,4 @@
-## Welcome to lummie's github site
+## Miscellany
 
 [Have a look at the Ingress language trainer](https://lummie.github.io/ingressLanguage)
 
